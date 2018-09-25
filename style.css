@@ -1,0 +1,70 @@
+@keyframes bgcolors {
+  0% {
+    background-color: #601919
+  }
+
+  50% {
+    background-color: #591842
+  }
+
+  100% {
+    background-color: #3b154f
+  }
+}
+
+body {
+  /* animation for background colors */
+  -webkit-animation: bgcolors 10s infinite;
+  animation: bgcolors 10s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+
+  color: white;
+  font-size: 14px;
+}
+
+#homeDiv {
+  width: 700px;
+	height: 400px;
+  max-width:100%;
+  max-height:100%;
+
+  text-align: center;
+
+  position: fixed;
+  left: 0; 
+  right: 0;
+  top: 0; 
+  bottom: 0;
+  margin: auto;
+}
+
+.name {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 5em;
+	text-align: center;
+}
+
+.links {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5em;
+	color: white;
+	text-decoration: none;
+}
+
+.links:hover {
+  opacity: 0.7;
+}
+
+.footer {
+  position: absolute;
+
+  background-color: black;
+  text-align: center;
+  opacity: .6;
+  
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 1rem;
+}
